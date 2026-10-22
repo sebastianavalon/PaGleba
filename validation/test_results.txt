@@ -1,0 +1,247 @@
+test_candidate_limit_withholds_genus (test_contracts.Contracts.test_candidate_limit_withholds_genus) ... ok
+test_checkpoint_detects_corruption (test_contracts.Contracts.test_checkpoint_detects_corruption) ... ok
+test_checkpoint_detects_scientific_parameter_changes (test_contracts.Contracts.test_checkpoint_detects_scientific_parameter_changes) ... ok
+test_cli_validation_error_is_reported_without_traceback (test_contracts.Contracts.test_cli_validation_error_is_reported_without_traceback) ... ok
+test_eukfunc_import_does_not_assign_unknown (test_contracts.Contracts.test_eukfunc_import_does_not_assign_unknown) ... ok
+test_fastq_duplicate_ids_preserved (test_contracts.Contracts.test_fastq_duplicate_ids_preserved) ... ok
+test_fastq_quality_mismatch_rejected (test_contracts.Contracts.test_fastq_quality_mismatch_rejected) ... ok
+test_generic_ssu_requires_explicit_assay_lengths (test_contracts.Contracts.test_generic_ssu_requires_explicit_assay_lengths) ... ok
+test_invalid_fastq_nucleotide_rejected (test_contracts.Contracts.test_invalid_fastq_nucleotide_rejected) ... ok
+test_invalid_high_score_does_not_override_valid_hit (test_contracts.Contracts.test_invalid_high_score_does_not_override_valid_hit) ... ok
+test_its_does_not_inherit_18s_length_limits (test_contracts.Contracts.test_its_does_not_inherit_18s_length_limits) ... ok
+test_lca_disagreeing_genera_retains_family (test_contracts.Contracts.test_lca_disagreeing_genera_retains_family) ... ok
+test_lca_same_genus_species_not_asserted (test_contracts.Contracts.test_lca_same_genus_species_not_asserted) ... ok
+test_merge_multiple_runs_counts_without_deduplication (test_contracts.Contracts.test_merge_multiple_runs_counts_without_deduplication) ... RESUME merge ssu sampleA
+ok
+test_ncbi_synonym_and_genus_split_are_not_conflated (test_contracts.Contracts.test_ncbi_synonym_and_genus_split_are_not_conflated) ... ok
+test_no_acceptable_alignment_is_explicit (test_contracts.Contracts.test_no_acceptable_alignment_is_explicit) ... ok
+test_no_broad_barcode_substring_substitution (test_contracts.Contracts.test_no_broad_barcode_substring_substitution) ... ok
+test_plants_are_eukaryotic_assignments (test_contracts.Contracts.test_plants_are_eukaryotic_assignments) ... ok
+test_qscore_averages_error_probabilities (test_contracts.Contracts.test_qscore_averages_error_probabilities) ... ok
+test_reused_file_in_manifest_rejected (test_contracts.Contracts.test_reused_file_in_manifest_rejected) ... ok
+test_singleton_group_distances_are_descriptive (test_contracts.Contracts.test_singleton_group_distances_are_descriptive) ... ok
+test_traits_do_not_multiply_repeated_reference_evidence (test_contracts.Contracts.test_traits_do_not_multiply_repeated_reference_evidence) ... ok
+test_unclassified_genus_not_used_for_function (test_contracts.Contracts.test_unclassified_genus_not_used_for_function) ... ok
+test_uuid_sequence_and_quality_not_rewritten (test_contracts.Contracts.test_uuid_sequence_and_quality_not_rewritten) ... ok
+test_fungaltrait_homonym_not_transferred_to_plant_but_oomycete_context_supported (test_functional_context.FunctionalContext.test_fungaltrait_homonym_not_transferred_to_plant_but_oomycete_context_supported) ... ok
+test_macadam_complete_pathway_and_prevalence_gates (test_functional_context.FunctionalContext.test_macadam_complete_pathway_and_prevalence_gates) ... ok
+test_two_markers_pilot_resume_models_plants_and_small_groups (test_integration.Integration.test_two_markers_pilot_resume_models_plants_and_small_groups) ... STAGE merge
+STAGE trim
+STAGE classify
+CHECKPOINT its sample01 000000000001_000000000015
+STAGE merge
+RESUME merge its sample01
+RESUME merge its sample02
+RESUME merge its sample03
+RESUME merge its sample04
+RESUME merge its sample05
+RESUME merge its sample06
+RESUME merge its sample07
+RESUME merge its sample08
+RESUME merge its sample09
+RESUME merge its sample10
+RESUME merge its sample11
+RESUME merge its sample12
+RESUME merge ssu sample01
+RESUME merge ssu sample02
+RESUME merge ssu sample03
+RESUME merge ssu sample04
+RESUME merge ssu sample05
+RESUME merge ssu sample06
+RESUME merge ssu sample07
+RESUME merge ssu sample08
+RESUME merge ssu sample09
+RESUME merge ssu sample10
+RESUME merge ssu sample11
+RESUME merge ssu sample12
+STAGE trim
+RESUME trim its sample01
+RESUME trim its sample02
+RESUME trim its sample03
+RESUME trim its sample04
+RESUME trim its sample05
+RESUME trim its sample06
+RESUME trim its sample07
+RESUME trim its sample08
+RESUME trim its sample09
+RESUME trim its sample10
+RESUME trim its sample11
+RESUME trim its sample12
+RESUME trim ssu sample01
+RESUME trim ssu sample02
+RESUME trim ssu sample03
+RESUME trim ssu sample04
+RESUME trim ssu sample05
+RESUME trim ssu sample06
+RESUME trim ssu sample07
+RESUME trim ssu sample08
+RESUME trim ssu sample09
+RESUME trim ssu sample10
+RESUME trim ssu sample11
+RESUME trim ssu sample12
+STAGE classify
+CHECKPOINT its sample01 000000000001_000000000015
+CHECKPOINT its sample01 000000000016_000000000024
+CHECKPOINT its sample02 000000000001_000000000015
+CHECKPOINT its sample02 000000000016_000000000024
+CHECKPOINT its sample03 000000000001_000000000015
+CHECKPOINT its sample03 000000000016_000000000024
+CHECKPOINT its sample04 000000000001_000000000015
+CHECKPOINT its sample04 000000000016_000000000024
+CHECKPOINT its sample05 000000000001_000000000015
+CHECKPOINT its sample05 000000000016_000000000024
+CHECKPOINT its sample06 000000000001_000000000015
+CHECKPOINT its sample06 000000000016_000000000024
+CHECKPOINT its sample07 000000000001_000000000015
+CHECKPOINT its sample07 000000000016_000000000024
+CHECKPOINT its sample08 000000000001_000000000015
+CHECKPOINT its sample08 000000000016_000000000024
+CHECKPOINT its sample09 000000000001_000000000015
+CHECKPOINT its sample09 000000000016_000000000024
+CHECKPOINT its sample10 000000000001_000000000015
+CHECKPOINT its sample10 000000000016_000000000024
+CHECKPOINT its sample11 000000000001_000000000015
+CHECKPOINT its sample11 000000000016_000000000024
+CHECKPOINT its sample12 000000000001_000000000015
+CHECKPOINT its sample12 000000000016_000000000024
+CHECKPOINT ssu sample01 000000000001_000000000015
+CHECKPOINT ssu sample01 000000000016_000000000024
+CHECKPOINT ssu sample02 000000000001_000000000015
+CHECKPOINT ssu sample02 000000000016_000000000024
+CHECKPOINT ssu sample03 000000000001_000000000015
+CHECKPOINT ssu sample03 000000000016_000000000024
+CHECKPOINT ssu sample04 000000000001_000000000015
+CHECKPOINT ssu sample04 000000000016_000000000024
+CHECKPOINT ssu sample05 000000000001_000000000015
+CHECKPOINT ssu sample05 000000000016_000000000024
+CHECKPOINT ssu sample06 000000000001_000000000015
+CHECKPOINT ssu sample06 000000000016_000000000024
+CHECKPOINT ssu sample07 000000000001_000000000015
+CHECKPOINT ssu sample07 000000000016_000000000024
+CHECKPOINT ssu sample08 000000000001_000000000015
+CHECKPOINT ssu sample08 000000000016_000000000024
+CHECKPOINT ssu sample09 000000000001_000000000015
+CHECKPOINT ssu sample09 000000000016_000000000024
+CHECKPOINT ssu sample10 000000000001_000000000015
+CHECKPOINT ssu sample10 000000000016_000000000024
+CHECKPOINT ssu sample11 000000000001_000000000015
+CHECKPOINT ssu sample11 000000000016_000000000024
+CHECKPOINT ssu sample12 000000000001_000000000015
+CHECKPOINT ssu sample12 000000000016_000000000024
+STAGE tables
+STAGE functions
+STAGE statistics
+STAGE models
+STAGE lefse
+STAGE report
+COMPLETE: /tmp/PaGleba integration lru7a1j1/project/results
+STAGE merge
+RESUME merge its sample01
+RESUME merge its sample02
+RESUME merge its sample03
+RESUME merge its sample04
+RESUME merge its sample05
+RESUME merge its sample06
+RESUME merge its sample07
+RESUME merge its sample08
+RESUME merge its sample09
+RESUME merge its sample10
+RESUME merge its sample11
+RESUME merge its sample12
+RESUME merge ssu sample01
+RESUME merge ssu sample02
+RESUME merge ssu sample03
+RESUME merge ssu sample04
+RESUME merge ssu sample05
+RESUME merge ssu sample06
+RESUME merge ssu sample07
+RESUME merge ssu sample08
+RESUME merge ssu sample09
+RESUME merge ssu sample10
+RESUME merge ssu sample11
+RESUME merge ssu sample12
+STAGE trim
+RESUME trim its sample01
+RESUME trim its sample02
+RESUME trim its sample03
+RESUME trim its sample04
+RESUME trim its sample05
+RESUME trim its sample06
+RESUME trim its sample07
+RESUME trim its sample08
+RESUME trim its sample09
+RESUME trim its sample10
+RESUME trim its sample11
+RESUME trim its sample12
+RESUME trim ssu sample01
+RESUME trim ssu sample02
+RESUME trim ssu sample03
+RESUME trim ssu sample04
+RESUME trim ssu sample05
+RESUME trim ssu sample06
+RESUME trim ssu sample07
+RESUME trim ssu sample08
+RESUME trim ssu sample09
+RESUME trim ssu sample10
+RESUME trim ssu sample11
+RESUME trim ssu sample12
+STAGE classify
+CHECKPOINT its sample01 000000000001_000000000015
+CHECKPOINT its sample01 000000000016_000000000024
+CHECKPOINT its sample02 000000000001_000000000015
+CHECKPOINT its sample02 000000000016_000000000024
+CHECKPOINT its sample03 000000000001_000000000015
+CHECKPOINT its sample03 000000000016_000000000024
+CHECKPOINT its sample04 000000000001_000000000015
+CHECKPOINT its sample04 000000000016_000000000024
+CHECKPOINT its sample05 000000000001_000000000015
+CHECKPOINT its sample05 000000000016_000000000024
+CHECKPOINT its sample06 000000000001_000000000015
+CHECKPOINT its sample06 000000000016_000000000024
+CHECKPOINT its sample07 000000000001_000000000015
+CHECKPOINT its sample07 000000000016_000000000024
+CHECKPOINT its sample08 000000000001_000000000015
+CHECKPOINT its sample08 000000000016_000000000024
+CHECKPOINT its sample09 000000000001_000000000015
+CHECKPOINT its sample09 000000000016_000000000024
+CHECKPOINT its sample10 000000000001_000000000015
+CHECKPOINT its sample10 000000000016_000000000024
+CHECKPOINT its sample11 000000000001_000000000015
+CHECKPOINT its sample11 000000000016_000000000024
+CHECKPOINT its sample12 000000000001_000000000015
+CHECKPOINT its sample12 000000000016_000000000024
+CHECKPOINT ssu sample01 000000000001_000000000015
+CHECKPOINT ssu sample01 000000000016_000000000024
+CHECKPOINT ssu sample02 000000000001_000000000015
+CHECKPOINT ssu sample02 000000000016_000000000024
+CHECKPOINT ssu sample03 000000000001_000000000015
+CHECKPOINT ssu sample03 000000000016_000000000024
+CHECKPOINT ssu sample04 000000000001_000000000015
+CHECKPOINT ssu sample04 000000000016_000000000024
+CHECKPOINT ssu sample05 000000000001_000000000015
+CHECKPOINT ssu sample05 000000000016_000000000024
+CHECKPOINT ssu sample06 000000000001_000000000015
+CHECKPOINT ssu sample06 000000000016_000000000024
+CHECKPOINT ssu sample07 000000000001_000000000015
+CHECKPOINT ssu sample07 000000000016_000000000024
+CHECKPOINT ssu sample08 000000000001_000000000015
+CHECKPOINT ssu sample08 000000000016_000000000024
+CHECKPOINT ssu sample09 000000000001_000000000015
+CHECKPOINT ssu sample09 000000000016_000000000024
+CHECKPOINT ssu sample10 000000000001_000000000015
+CHECKPOINT ssu sample10 000000000016_000000000024
+CHECKPOINT ssu sample11 000000000001_000000000015
+CHECKPOINT ssu sample11 000000000016_000000000024
+CHECKPOINT ssu sample12 000000000001_000000000015
+CHECKPOINT ssu sample12 000000000016_000000000024
+STAGE tables
+STAGE functions
+STAGE statistics
+STAGE models
+ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 17.676s
+
+OK
+COMPLETE: /tmp/PaGleba integration lru7a1j1/project/results

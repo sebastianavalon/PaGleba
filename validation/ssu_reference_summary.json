@@ -1,0 +1,20 @@
+{
+  "provider": "eukaryome",
+  "marker": "ssu",
+  "version": "2.1",
+  "preset": "map-ont",
+  "sequences": 558632,
+  "bases": 799154809,
+  "unselected_taxmap_records": 0,
+  "minimap2_version": "2.31-r1302",
+  "files": {
+    "reference.fasta": "da699ef6fc2be34d33ff3245781393fa78b90f91627725cf4dae0491049a2b59",
+    "reference.mmi": "1a3fc4e9f096e9902ed59e1d0c339eda948c0b5cc6ed8bfe662a31007b369096",
+    "taxonomy.sqlite": "25b8ce8858a0abb06ab0c6d235c134d16d46a2b13bb11385b5b973b52b1cf396"
+  },
+  "input_sha256": {
+    "fasta": "da699ef6fc2be34d33ff3245781393fa78b90f91627725cf4dae0491049a2b59",
+    "taxonomy": "0af8e6070c34609878a0f4a3f386cb63df170311b3df8c71fd9f1258f48f3530"
+  },
+  "taxonomy_schema": "EUKARYOME positional kingdom..species plus local domain"
+}

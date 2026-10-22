@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite PaGleba and the databases/tools used in your analysis."
+title: "PaGleba: portable ONT amplicon taxonomy and ecological analysis"
+version: 1.0.0
+date-released: 2026-10-22
+type: software
+authors:
+  - name: "PaGleba contributors"
+license: MIT

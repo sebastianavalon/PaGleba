@@ -1,0 +1,33 @@
+{
+  "blocks": [
+    "16s",
+    "ssu",
+    "macadam",
+    "eukfunc"
+  ],
+  "block_order": [
+    "16s",
+    "ssu",
+    "macadam",
+    "eukfunc"
+  ],
+  "paths": [
+    {
+      "from": "16s",
+      "to": "macadam"
+    },
+    {
+      "from": "16s",
+      "to": "eukfunc"
+    },
+    {
+      "from": "ssu",
+      "to": "macadam"
+    },
+    {
+      "from": "ssu",
+      "to": "eukfunc"
+    }
+  ],
+  "bootstrap_strata": "location"
+}

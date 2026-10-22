@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "installed_from_wheel": true,
+  "installed_package_location_verified": true,
+  "bundled_R_scripts": true,
+  "CLI_help_commands_checked": 19,
+  "CLI_flag_manifest_two_runs_and_barcode_rename": true,
+  "metadata_validate_plan": true,
+  "markdown_missing_local_targets": [],
+  "fixed_original_workstation_paths_in_sources": [],
+  "source_python_compilation": true
+}

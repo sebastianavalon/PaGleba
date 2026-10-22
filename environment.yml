@@ -1,0 +1,20 @@
+name: pagleba
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - minimap2=2.31
+  - cutadapt=5.2
+  - p7zip
+  - numpy>=1.24,<3
+  - scipy>=1.10,<2
+  - matplotlib-base>=3.7,<4
+  - r-base>=4.4,<4.6
+  - r-vegan
+  - r-permute
+  - r-jsonlite
+  - r-igraph
+  - r-plspm

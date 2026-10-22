@@ -1,0 +1,21 @@
+{
+  "marker": "ssu",
+  "provider": "eukaryome",
+  "version": "2.1",
+  "database": "databases/ssu",
+  "min_length": 400,
+  "max_length": 1200,
+  "identity": 0.95,
+  "coverage": 0.8,
+  "score_ratio": 0.99,
+  "secondary": 50,
+  "preset": "map-ont",
+  "trim": "linked",
+  "forward": "CAGCAGCCGCGGTAATTCC",
+  "reverse": "CCCGTGTTGAGTCAAATTAAGC",
+  "error_rate": 0.15,
+  "overlap": 16,
+  "domains": [
+    "Eukaryota"
+  ]
+}

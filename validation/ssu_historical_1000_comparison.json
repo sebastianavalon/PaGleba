@@ -1,0 +1,10 @@
+{
+  "reference_sequences": 558632,
+  "reference_bases": 799154809,
+  "sample": "barcode01",
+  "read_occurrences": 1000,
+  "semantic_matches": 1000,
+  "differences": [],
+  "scope": "Real historical PaGleba 18S checkpoint comparison with identical deterministic query IDs and minimap2 parameters; not an ITS assay validation.",
+  "read_chunk_mapping_elapsed_seconds": 4.1
+}

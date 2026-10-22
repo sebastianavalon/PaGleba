@@ -1,0 +1,15 @@
+[
+  {
+    "id": "all_groups",
+    "group": "group",
+    "subset": {},
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "its"
+    ],
+    "note": "Use only when site-restricted exchangeability matches the real experiment."
+  }
+]

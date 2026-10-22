@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "date": "2026-10-22",
+  "software_tests": 27,
+  "skipped_in_full_environment": 0,
+  "end_to_end_markers": [
+    "ssu",
+    "its"
+  ],
+  "pilot_resume_and_output_hash_checks": true,
+  "empty_functional_block_status": true,
+  "small_group_inference_withheld": true,
+  "plants_preserved": true,
+  "full_real_SSU_references": 558632,
+  "real_18S_occurrences_compared": 1000,
+  "matching_historical_status_and_lineage": 1000,
+  "official_lefse_jobs": 2,
+  "official_faprotax_positive_smoke": true,
+  "MACADAM_and_NCBI_fixture_tests": true,
+  "limitations": [
+    "No biological validation of the next real ITS project",
+    "Full current ITS archive/index was not prepared in this validation",
+    "No clean Conda solver install on an unrelated computer was performed",
+    "Historical seven-block/global model and bespoke original figures are not claimed bit-identical"
+  ],
+  "tests_run_from_installed_final_wheel": true,
+  "external_source_and_installed_module_bytes_identical": true,
+  "generic_ssu_limits_explicit": true,
+  "historical_f566_r1200_profile_separate": true
+}

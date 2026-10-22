@@ -1,0 +1,339 @@
+{
+  "provenance": "PaGleba curated feature definitions; MetaCyc pathway IDs from the user-supplied MACADAM snapshot; not a bundled database",
+  "pathway_score_min": 0.999999,
+  "genus_positive_reference_fraction_min": 0.3333333333333333,
+  "higher_rank_positive_reference_fraction_min": 0.9,
+  "higher_rank_min_genomes": 5,
+  "higher_rank_min_genera": 3,
+  "traits": {
+    "auxin_IAA_biosynthesis": {
+      "pathway_ids": [
+        "PWY-3161",
+        "PWY-5025",
+        "PWY-5026",
+        "TRPIAACAT-PWY"
+      ],
+      "EC": [],
+      "note": "Excludes indole production, IAA degradation, conjugation and inactivation."
+    },
+    "cytokinin_biosynthesis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": ""
+    },
+    "gibberellin_biosynthesis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "GA12-only precursor pathway is excluded; pathway annotation does not prove hormone secretion or plant response."
+    },
+    "gibberellin_GA12_precursor": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Precursor only, separate from downstream gibberellin biosynthesis."
+    },
+    "ethylene_biosynthesis": {
+      "pathway_ids": [
+        "PWY-6853",
+        "PWY-6854"
+      ],
+      "EC": [],
+      "note": "Excludes ethylene glycol degradation and engineered pathways."
+    },
+    "abscisic_acid_biosynthesis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Specific ABA pathway; excludes abscisate degradation and broad derivative classes."
+    },
+    "salicylate_biosynthesis": {
+      "pathway_ids": [
+        "PWY-6406"
+      ],
+      "EC": [],
+      "note": "Salicylate production potential, not proof of hormonal signaling or induced plant resistance."
+    },
+    "proteolysis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "No specific extracellular protease pathway/EC in this snapshot; use positive IJSEM gelatinase observations, not housekeeping peptidases."
+    },
+    "cellulolysis": {
+      "pathway_ids": [
+        "PWY-6784",
+        "PWY-6788",
+        "PWY-6805"
+      ],
+      "EC": [
+        "3.2.1.4"
+      ],
+      "note": "Polymer cleavage; excludes cellulose biosynthesis and cellobiose utilization alone."
+    },
+    "chitinolysis": {
+      "pathway_ids": [
+        "PWY-6855",
+        "PWY-6902",
+        "PWY-7822"
+      ],
+      "EC": [
+        "3.2.1.14"
+      ],
+      "note": "Excludes chitin biosynthesis and degradation of monomeric chitin derivatives alone."
+    },
+    "lipolysis": {
+      "pathway_ids": [
+        "LIPAS-PWY"
+      ],
+      "EC": [
+        "3.1.1.3",
+        "3.1.1.34"
+      ],
+      "note": "Triacylglycerol degradation; no general esterase or lipid biosynthesis surrogate."
+    },
+    "siderophore_biosynthesis": {
+      "pathway_ids": [
+        "AEROBACTINSYN-PWY",
+        "PWY-6289",
+        "PWY-6407",
+        "PWY-6408",
+        "PWY-6409",
+        "PWY-761",
+        "PWY-7984",
+        "PWY-7986",
+        "PWY-7990",
+        "PWY-8008"
+      ],
+      "EC": [],
+      "note": "Curated MetaCyc Siderophores-Biosynthesis hierarchy; includes pyoverdine variants, desferrioxamines, pyochelin and other named siderophores; excludes uptake, transport, storage and degradation."
+    },
+    "CO2_fixation_autotrophic": {
+      "pathway_ids": [
+        "CALVIN-PWY",
+        "CODH-PWY",
+        "P23-PWY",
+        "PWY-5392",
+        "PWY-5743",
+        "PWY-5744",
+        "PWY-5789",
+        "PWY-7784"
+      ],
+      "EC": [],
+      "note": "Complete autotrophic cycles only; excludes incomplete reductive TCA and anaplerotic carboxylation."
+    },
+    "CO2_fixation_Calvin": {
+      "pathway_ids": [
+        "CALVIN-PWY"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "CO2_fixation_reductive_TCA": {
+      "pathway_ids": [
+        "P23-PWY",
+        "PWY-5392"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "CO2_fixation_Wood_Ljungdahl": {
+      "pathway_ids": [
+        "CODH-PWY",
+        "PWY-7784"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "CO2_fixation_hydroxypropionate": {
+      "pathway_ids": [
+        "PWY-5743",
+        "PWY-5789"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "CO2_anaplerotic_carboxylation": {
+      "pathway_ids": [
+        "PWYQT-4429"
+      ],
+      "EC": [],
+      "note": "Separate from net autotrophic CO2 fixation."
+    },
+    "nitrogen_fixation": {
+      "pathway_ids": [
+        "N2FIX-PWY",
+        "PWY-7576"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "phosphate_solubilization_inorganic": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Not inferred from generic acid production, phosphate transport or phosphatases."
+    },
+    "organic_P_mineralization_phosphatase": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Positive acid/alkaline phosphatase phenotype only; excludes housekeeping NAD phosphatases and mineral phosphate solubilization."
+    },
+    "ACC_deaminase": {
+      "pathway_ids": [],
+      "EC": [
+        "4.1.99.4"
+      ],
+      "note": "Requires explicit ACC deaminase; not inferred from ethylene synthesis."
+    },
+    "acetoin_biosynthesis": {
+      "pathway_ids": [
+        "PWY-5938",
+        "PWY-5939",
+        "PWY-6389",
+        "PWY3O-440"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "butanediol_biosynthesis": {
+      "pathway_ids": [
+        "PWY-5951",
+        "PWY-6390",
+        "PWY-6391",
+        "PWY-6392"
+      ],
+      "EC": [],
+      "note": "All annotated stereoisomer routes; excludes butanediol degradation."
+    },
+    "EPS_matrix_polysaccharides": {
+      "pathway_ids": [
+        "PWY-1001",
+        "PWY-6082"
+      ],
+      "EC": [],
+      "note": "Alginate/cellulose biosynthesis potential; not direct proof of secretion or biofilm formation."
+    },
+    "biofilm_formation": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "No direct biofilm phenotype annotation in these sources; EPS precursor pathways are not substituted."
+    },
+    "antagonistic_secondary_metabolites": {
+      "pathway_ids": [
+        "PWY-5770",
+        "PWY-5776",
+        "PWY-6831"
+      ],
+      "EC": [],
+      "note": "Selected known antibiotic biosynthetic routes; no direct proof of pathogen suppression in the sample."
+    },
+    "hydrogen_cyanide_biosynthesis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Cyanide detoxification/degradation does not qualify."
+    },
+    "nitrification": {
+      "pathway_ids": [
+        "DENITRIFICATION-PWY",
+        "PWY-6748"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "denitrification": {
+      "pathway_ids": [
+        "DENITRIFICATION-PWY",
+        "PWY-6748"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "nitrate_reduction": {
+      "pathway_ids": [
+        "DENITRIFICATION-PWY",
+        "PWY-381",
+        "PWY-5674",
+        "PWY-5675",
+        "PWY-6748",
+        "PWY0-1321",
+        "PWY0-1352",
+        "PWY0-1573",
+        "PWY0-1581",
+        "PWY0-1584",
+        "PWY490-3"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "DNRA": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": ""
+    },
+    "sulfur_oxidation": {
+      "pathway_ids": [
+        "FESULFOX-PWY",
+        "P222-PWY",
+        "PWY-1164",
+        "PWY-5274",
+        "PWY-5276",
+        "PWY-5278",
+        "PWY-5279",
+        "PWY-5285",
+        "PWY-5296",
+        "PWY-5303",
+        "PWY-5326",
+        "PWY-6675",
+        "SULFUROX-PWY",
+        "THIOSULFOX-PWY"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "sulfur_respiration": {
+      "pathway_ids": [
+        "DISSULFRED-PWY",
+        "P224-PWY"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "xylanolysis": {
+      "pathway_ids": [
+        "PWY-6717",
+        "PWY-6789",
+        "PWY-6813"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "ligninolysis": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": ""
+    },
+    "pectinolysis": {
+      "pathway_ids": [
+        "PWY-7246",
+        "PWY-7248"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "amylolysis": {
+      "pathway_ids": [
+        "PWY-6731",
+        "PWY-6735",
+        "PWY-6737"
+      ],
+      "EC": [],
+      "note": ""
+    },
+    "aromatic_compound_degradation": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "Source FAPROTAX ecological annotation, not a sum of nonspecific aromatic intermediates."
+    },
+    "plant_pathogenic_potential": {
+      "pathway_ids": [],
+      "EC": [],
+      "note": "FAPROTAX annotation; selected activities are not necessarily beneficial to plants."
+    }
+  }
+}

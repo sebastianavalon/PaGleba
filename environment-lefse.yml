@@ -1,0 +1,8 @@
+name: pagleba-lefse
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - lefse=1.1.2

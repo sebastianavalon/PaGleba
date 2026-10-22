@@ -1,0 +1,769 @@
+[
+  {
+    "id": "A1",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode04",
+        "barcode07",
+        "barcode13",
+        "barcode19",
+        "barcode22",
+        "barcode28",
+        "barcode31",
+        "barcode37"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "B1",
+    "group": "status",
+    "subset": {
+      "sample_id": [
+        "barcode01",
+        "barcode04",
+        "barcode07",
+        "barcode10",
+        "barcode13",
+        "barcode16",
+        "barcode19",
+        "barcode22",
+        "barcode25",
+        "barcode28",
+        "barcode31",
+        "barcode34",
+        "barcode37"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "A2",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode05",
+        "barcode08",
+        "barcode14",
+        "barcode20",
+        "barcode23",
+        "barcode29",
+        "barcode32",
+        "barcode38"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "B2",
+    "group": "status",
+    "subset": {
+      "sample_id": [
+        "barcode02",
+        "barcode05",
+        "barcode08",
+        "barcode11",
+        "barcode14",
+        "barcode17",
+        "barcode20",
+        "barcode23",
+        "barcode26",
+        "barcode29",
+        "barcode32",
+        "barcode35",
+        "barcode38"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "A3",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode06",
+        "barcode09",
+        "barcode15",
+        "barcode21",
+        "barcode24",
+        "barcode30",
+        "barcode33",
+        "barcode39"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "B3",
+    "group": "status",
+    "subset": {
+      "sample_id": [
+        "barcode03",
+        "barcode06",
+        "barcode09",
+        "barcode12",
+        "barcode15",
+        "barcode18",
+        "barcode21",
+        "barcode24",
+        "barcode27",
+        "barcode30",
+        "barcode33",
+        "barcode36",
+        "barcode39"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "C1",
+    "group": "material",
+    "subset": {
+      "sample_id": [
+        "barcode01",
+        "barcode02",
+        "barcode03",
+        "barcode10",
+        "barcode11",
+        "barcode12",
+        "barcode16",
+        "barcode17",
+        "barcode18",
+        "barcode25",
+        "barcode26",
+        "barcode27",
+        "barcode34",
+        "barcode35",
+        "barcode36"
+      ]
+    },
+    "covariates": [
+      "location",
+      "stage"
+    ],
+    "strata": "location_stage",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "C2",
+    "group": "material",
+    "subset": {
+      "sample_id": [
+        "barcode04",
+        "barcode05",
+        "barcode06",
+        "barcode13",
+        "barcode14",
+        "barcode15",
+        "barcode19",
+        "barcode20",
+        "barcode21",
+        "barcode28",
+        "barcode29",
+        "barcode30",
+        "barcode37",
+        "barcode38",
+        "barcode39"
+      ]
+    },
+    "covariates": [
+      "location",
+      "stage"
+    ],
+    "strata": "location_stage",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "C3",
+    "group": "material",
+    "subset": {
+      "sample_id": [
+        "barcode07",
+        "barcode08",
+        "barcode09",
+        "barcode22",
+        "barcode23",
+        "barcode24",
+        "barcode31",
+        "barcode32",
+        "barcode33"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location_stage",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D1_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode01",
+        "barcode16",
+        "barcode25"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D1_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode10",
+        "barcode34"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D2_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode02",
+        "barcode17",
+        "barcode26"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D2_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode11",
+        "barcode35"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D3_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode03",
+        "barcode18",
+        "barcode27"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D3_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode12",
+        "barcode36"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D4_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode04",
+        "barcode19",
+        "barcode28"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D4_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode13",
+        "barcode37"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D5_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode05",
+        "barcode20",
+        "barcode29"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D5_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode14",
+        "barcode38"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D6_flowering",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode06",
+        "barcode21",
+        "barcode30"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D6_wilted",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode15",
+        "barcode39"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D7_control",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode07",
+        "barcode22",
+        "barcode31"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D8_control",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode08",
+        "barcode23",
+        "barcode32"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "D9_control",
+    "group": "location",
+    "subset": {
+      "sample_id": [
+        "barcode09",
+        "barcode24",
+        "barcode33"
+      ]
+    },
+    "covariates": [],
+    "strata": null,
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "E1",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode01",
+        "barcode10",
+        "barcode25",
+        "barcode34"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "E2",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode02",
+        "barcode11",
+        "barcode26",
+        "barcode35"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "E3",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode03",
+        "barcode12",
+        "barcode27",
+        "barcode36"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": ""
+  },
+  {
+    "id": "E4",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode04",
+        "barcode13",
+        "barcode28",
+        "barcode37"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": "A1_flowering_vs_wilted"
+  },
+  {
+    "id": "E5",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode05",
+        "barcode14",
+        "barcode29",
+        "barcode38"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": "A2_flowering_vs_wilted"
+  },
+  {
+    "id": "E6",
+    "group": "stage",
+    "subset": {
+      "sample_id": [
+        "barcode06",
+        "barcode15",
+        "barcode30",
+        "barcode39"
+      ]
+    },
+    "covariates": [
+      "location"
+    ],
+    "strata": "location",
+    "blocks": [
+      "16s",
+      "ssu",
+      "macadam",
+      "eukfunc",
+      "fungaltraits"
+    ],
+    "note": "Historical PaGleba design. Each sample ID is one biological sample; small site/stage subsets are descriptive.",
+    "alias_of": "A3_flowering_vs_wilted"
+  }
+]

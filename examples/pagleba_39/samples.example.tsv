@@ -1,0 +1,6 @@
+sample_id	marker	run_id	barcode	fastq	header_barcode
+barcode01	16s	batch1_run1	barcode01	/replace/bact/batch1/run1/barcode01/*.fastq.gz	barcode01
+barcode01	16s	batch1_run2	barcode01	/replace/bact/batch1/run2/barcode01/*.fastq.gz	barcode01
+barcode21	16s	batch2_run1	barcode01	/replace/bact/batch2/run1/barcode01/*.fastq.gz	barcode21
+barcode01	ssu	euk_run1	barcode01	/replace/euk/run1/barcode01/*.fastq.gz	barcode01
+barcode01	ssu	euk_run2	barcode01	/replace/euk/run2/barcode01/*.fastq.gz	barcode01

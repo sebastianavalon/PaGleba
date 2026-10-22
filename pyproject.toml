@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pagleba"
+version = "1.0.0"
+description = "Portable, auditable ONT amplicon taxonomy and ecological analysis workflow"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "matplotlib>=3.7,<4"]
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+pagleba = "pagleba.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pagleba = ["*.R"]

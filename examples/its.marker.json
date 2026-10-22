@@ -1,0 +1,21 @@
+{
+  "marker": "its",
+  "provider": "eukaryome",
+  "version": "2.1",
+  "database": "databases/its",
+  "min_length": null,
+  "max_length": null,
+  "identity": 0.95,
+  "coverage": 0.8,
+  "score_ratio": 0.99,
+  "secondary": 50,
+  "preset": "map-ont",
+  "trim": "none",
+  "forward": null,
+  "reverse": null,
+  "error_rate": 0.15,
+  "overlap": 16,
+  "domains": [
+    "Eukaryota"
+  ]
+}

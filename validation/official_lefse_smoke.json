@@ -1,0 +1,21 @@
+{
+  "scope": "Synthetic two-marker demo with official LEfSe 1.1.2",
+  "results": [
+    {
+      "Task": "all_groups",
+      "Block": "ssu",
+      "N": "12",
+      "Status": "official_LEfSe_exploratory",
+      "Classical_hits": "12",
+      "BH_supported_hits": "12"
+    },
+    {
+      "Task": "all_groups",
+      "Block": "its",
+      "N": "12",
+      "Status": "official_LEfSe_exploratory",
+      "Classical_hits": "12",
+      "BH_supported_hits": "12"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+PASS: official positive associations 2
+Traits: ['aerobic_ammonia_oxidation', 'nitrification']
